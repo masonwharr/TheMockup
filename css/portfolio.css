@@ -2,9 +2,6 @@ body{
 	background-color:white;
 	width:100%;
 }
-*{
-	outline:solid red 1px;
-}
 html,body{
 	margin:0px;
 	padding:0px;
