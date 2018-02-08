@@ -2,6 +2,9 @@ body{
 	background-color:white;
 	width:100%;
 }
+*{
+	outline:solid red 1px;
+}
 html,body{
 	margin:0px;
 	padding:0px;
@@ -20,6 +23,17 @@ figcaption{
 	margin-left:-475px;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+.mpic{
+	height:260px;
+	 width:282px;
+}
+.logo{
+	height:95px; 
+	width:90px;
+}
+.mountain{
+	width:950px;
 }
 .name, .title{ 
 
