@@ -2,7 +2,6 @@ body{
 	background-color:white;
 	width:100%;
 }
-
 html,body{
 	margin:0px;
 	padding:0px;
@@ -27,7 +26,6 @@ figcaption{
 	margin:0px;
 	padding:0px;
 	color:#2d3c49;
-	/* Not display block. Inline, and whole header controlled by a flexbox with flex-wrap. */
 	 display:inline;
      margin-left:70%;
 	
@@ -70,13 +68,15 @@ left:-4.3%;
 	left:50%;
 	position:relative;
 	margin-left:-475px;
-
+	flex-wrap: wrap;
+		display: flex;
+	flex-direction: column;
 }
 .module{
-	width:282px;
+	width:275px;
 	margin:15px;
 	height:260px;
-	display:inline-block;
+	display:inline;
 				background-image:url(drinks.jpg);
 		background-size:cover;
 		cursor:pointer;
@@ -102,7 +102,6 @@ margin-left: 0px;
 		margin-left:-160px;
 	}
 	.module{
-		clear:both;
 		margin-bottom:35px;
 	}
 	.sectionName{
@@ -191,6 +190,7 @@ margin-left:30%;
 .secondary{
 	width:100%;
 	margin-left:-45%;
+	flex-wrap: wrap;
 }
 
 	}
