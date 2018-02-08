@@ -27,6 +27,7 @@ figcaption{
 	margin:0px;
 	padding:0px;
 	color:#2d3c49;
+	/* Not display block. Inline, and whole header controlled by a flexbox with flex-wrap. */
 	 display:inline;
      margin-left:70%;
 	
