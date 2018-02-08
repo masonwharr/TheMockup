@@ -188,7 +188,7 @@ margin-left:30%;
 	margin-bottom:55px;
 }
 .secondary{
-	width:100%;
+	width:90%;
 	margin-left:-45%;
 	flex-wrap: wrap;
 }
@@ -196,7 +196,7 @@ margin-left:30%;
 	}
 	@media screen and (max-width:330px){
 		.secondary{
-	width:97%;
+	width:93%;
 	margin-left:-48%;
 }
 .module{
