@@ -20,13 +20,15 @@ figcaption{
 	left:50%;
 	margin-left:-475px;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 .name, .title{ 
 
 	margin:0px;
 	padding:0px;
 	color:#2d3c49;
+	 display:inline;
+     margin-left:70%;
 	
 }
 .logo{
@@ -120,12 +122,22 @@ margin-left: 0px;
 	margin-right:20px;
 	padding:0px;
 	color:#2d3c49;
-		font: 300 1.7em/1.5em 'Montserrat';
+		font: 300 1.4em/1.3em 'Montserrat';
+
 	
 }
 
 }
 @media screen and (max-width:830px){
+		.name, .title{ 
+
+	margin-right:20px;
+	padding:0px;
+	color:#2d3c49;
+		font: 300 1.4em/1.3em 'Montserrat';
+margin-left:63%;
+	
+}
 	.main{
 		margin-bottom:24%;
 	}
@@ -135,17 +147,27 @@ margin-left: 0px;
 		margin-bottom:24%;
 	}
 	}
-		@media screen and (max-width:550px){
+		@media screen and (max-width:570px){
 	.main{
 		margin-bottom:24%;
 	}
+		.name, .title{ 
+
+margin-left:55%;
+	
+}
 	}
-			@media screen and (max-width:450px){
+			@media screen and (max-width:475px){
+						.name, .title{ 
+
+margin-left:43%;
+	
+}
 	.main{
 		margin-bottom:14%;
 	}
 	}
-@media screen and (max-width:350px){
+@media screen and (max-width:380px){
 	.title{
 	margin-top:5px;
 	position:relative;
@@ -155,6 +177,11 @@ margin-left: 0px;
 	position:relative;
 	top:10%;
 	font: 300 1.5em/1.5em 'Montserrat';
+}
+		.name, .title{ 
+
+margin-left:30%;
+	
 }
 .module{
 	margin:0px;
