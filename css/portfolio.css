@@ -23,7 +23,7 @@ figcaption{
 	flex-wrap: wrap;
 }
 .mpic{
-	height:260px;
+	height:auto;
 	 width:282px;
 }
 .logo{
